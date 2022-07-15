@@ -2,7 +2,7 @@
 import mongoose from 'mongoose'
 
 
-const MONGO_URL = process.env.MONGO_URL
+
 
 
 let cached = global.mongoose
