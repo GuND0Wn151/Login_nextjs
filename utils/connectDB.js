@@ -23,7 +23,7 @@ async function connectDB () {
       
     }
 
-    cached.promise = mongoose.connect(MONGO_URL, opts).then(mongoose => {
+    cached.promise = mongoose.connect("mongodb+srv://gundown:gundown@credentials.5vlv3qq.mongodb.net/?retryWrites=true&w=majority", opts).then(mongoose => {
       return mongoose
     })
   }
